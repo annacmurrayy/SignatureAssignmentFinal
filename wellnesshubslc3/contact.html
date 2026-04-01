@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Community Wellness Hub SLC | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header contact-header">
+  <div class="banner-overlay">
+    <h1>Contact Community Wellness Hub SLC</h1>
+    <p>Reach out with questions, ideas, or collaboration opportunities</p>
+  </div>
+</header>
+
+<nav class="main-nav">
+  <a href="index.html">Home</a>
+  <a href="offerings.html">Local Resources</a>
+  <a href="support.html">Support Services</a>
+  <a href="classes.html">Classes & Events</a>
+  <a href="blogs.html">Blogs & Articles</a>
+  <a href="contact.html" class="active">Contact</a>
+</nav>
+
+<main class="contact-main">
+  <section class="contact-intro">
+    <h2>We’d love to hear from you</h2>
+    <p>
+      Use the form below to connect about classes, community events, accessibility feedback,
+      or partnerships in the Salt Lake City area.
+    </p>
+  </section>
+
+  <section class="contact-form-wrapper">
+    <h2>Contact Form</h2>
+    <form action="#" method="post" class="contact-form">
+      <div class="form-row">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" required minlength="2" maxlength="80"
+               placeholder="Your full name">
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" required
+               placeholder="you@example.com">
+      </div>
+
+      <div class="form-row">
+        <label for="reason">Reason for Contact</label>
+        <select id="reason" name="reason" required>
+          <option value="" disabled selected>Select one</option>
+          <option value="class-question">Question about classes or events</option>
+          <option value="accessibility">Accessibility or inclusivity feedback</option>
+          <option value="partnership">Partnership or collaboration</option>
+          <option value="outdoor">Outdoor wellness recommendations</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="subject">Subject</label>
+        <input id="subject" name="subject" type="text" required minlength="4" maxlength="100"
+               placeholder="Short summary of your message">
+      </div>
+
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required minlength="10" maxlength="1000"
+                  rows="6" placeholder="Share details so we can best support you"></textarea>
+      </div>
+
+      <fieldset class="form-row">
+        <legend>Stay connected</legend>
+        <label class="checkbox-label">
+          <input type="checkbox" name="newsletter">
+          Sign me up for occasional updates about classes, outdoor meetups, and community events.
+        </label>
+      </fieldset>
+
+      <div class="form-row">
+        <button type="submit">Send Message</button>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 Community Wellness Hub SLC</p>
+</footer>
+
+</body>
+</html>
